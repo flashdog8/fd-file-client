@@ -1,0 +1,17 @@
+// sidebar
+
+$sideBarText:#ADD8E6;
+$sideBarActiveText:#0000FF;
+
+$sideBarBg: #00BFFF;
+$sideBarHover: #E0FFFF;
+
+$sideBarWidth: 60px;
+
+:export {
+  sideBarText: $sideBarText;
+  sideBarActiveText: $sideBarActiveText;
+  sideBarBg: $sideBarBg;
+  sideBarHover: $sideBarHover;
+  sideBarWidth: $sideBarWidth;
+}

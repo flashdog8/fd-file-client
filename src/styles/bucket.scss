@@ -1,0 +1,105 @@
+// bucket
+.bucket-container {
+  display: -webkit-flex;
+  display: flex; 
+  flex-direction: row;
+  height: 100vh;
+  min-height: 100vh;
+}
+.bucket-navbar-container {
+  width: 200px;
+  border-style:solid;
+  border-width: 0 1px 0 0;
+  border-color: #eee;
+}
+.bucket-main-container {
+  width: calc(100% - 200px);
+}
+
+.bucket-menu-title {
+  height: 36px;
+  line-height: 36px;
+  margin: 0 0 0 23px;
+  color: #C0C4CC;
+  font-size: 13px;
+}
+.bucket-menu {
+  border-width: 0;
+  margin: 0 0 20px 0;
+
+  .el-menu-item {
+    height: 44px;
+    line-height: 44px;
+  }
+}
+
+.content-wrapper {
+  margin: 0px;
+  width: 100%;
+}
+.content-header {
+  padding: 10px 0px 0px 20px;
+}
+.content-container {
+  height: 100vh;
+  margin: 10px 0px 0px 20px;
+}
+
+.filter-container {
+  padding-bottom: 10px;
+
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.document-icon {
+  color: #1874CD;
+  font-size: 18px;
+}
+
+.excel-icon {
+  color: #3CB371;
+  font-size: 18px;
+}
+
+.ppt-icon {
+  color: #FF6347;
+  font-size: 18px;
+}
+
+.folder-icon {
+  color:#FFD700;
+  background-color: #FAFAD2;
+  font-size: 18px;
+}
+
+.menu-icon {
+  font-size: 18px;
+}
+
+.button-icon {
+  font-size: 16px;
+}
+
+.success-color{
+  color: #67C23A
+}
+
+.warning-color{
+  color: #E6A23C
+}
+
+.danger-color{
+  color: #F56C6C
+}
+
+.info-color{
+  color: #909399
+}

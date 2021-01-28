@@ -1,0 +1,106 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './bucket.scss';
+@import './element-ui.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 600;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+
+.filter-container {
+  padding-bottom: 10px;
+
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 6px;
+  }
+
+  .filter-item-label {
+    font-size: 13px;
+    color: #909399;
+  }
+}
+
+.backSuccess,
+.backWarning,
+.backDanger,
+.backInfo {
+  filter: alpha(Opacity=60);
+  -moz-opacity: 0.6;
+  opacity: 0.6
+}
+
+.backSuccess{
+  background: #67C23A
+}
+
+.backWarning{
+  background: #E6A23C
+}
+
+.backDanger{
+  background: #F56C6C
+}
+
+
+.backInfo{
+  background: #909399
+}
